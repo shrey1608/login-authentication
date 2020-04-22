@@ -9,7 +9,8 @@ Use Firecamp for the testing purpose
 localhost:3000/api/user/register For registering user(POST)
 
 { 
-        "name":"",
+        
+	"name":"",
 	
 	"email":"",
 	
@@ -22,6 +23,7 @@ In json raw
 localhost:3000/api/user/login For login user (GET)
 
 {
+	
 	"email":"",
 	
 	"password":""
