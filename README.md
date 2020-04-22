@@ -7,19 +7,23 @@ To start the erver just type npm start
 Use Firecamp for the testing purpose
 
 localhost:3000/api/user/register For registering user(POST)
+
 { 
   "name":""
 	"email":"",
 	"password":""
-} 
+}
+
 In json raw
 
 
 localhost:3000/api/user/login For login user (GET)
+
 {
 	"email":"",
 	"password":""
 }
+
 All the validation cases have been taken care of like:
 Register:
 -invalid email
